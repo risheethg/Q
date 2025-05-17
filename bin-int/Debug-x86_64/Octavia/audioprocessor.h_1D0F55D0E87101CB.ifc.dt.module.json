@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\bin-int\\Debug-x86_64\\Octavia\\audioprocessor.obj",
+            "outputs": [
+                "..\\bin-int\\Debug-x86_64\\Octavia\\audioprocessor.h_1D0F55D0E87101CB.ifc.dt.module.json",
+                "..\\bin-int\\Debug-x86_64\\Octavia\\audioprocessor.h_1D0F55D0E87101CB.ifc.dt.d.json",
+                "..\\bin-int\\Debug-x86_64\\Octavia\\audioprocessor.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Dev\\Octavia\\Octavia\\src\\audioprocessor.h",
+                    "source-path": "c:\\dev\\octavia\\octavia\\src\\audioprocessor.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

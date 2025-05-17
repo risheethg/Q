@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\octavia\\octavia\\src\\audioprocessor.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\dev\\octavia\\octavia\\vendor\\portaudio\\include\\portaudio.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
