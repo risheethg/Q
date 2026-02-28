@@ -1,6 +1,6 @@
 #include "Application.h"
 
-namespace Octavia {
+namespace Q {
 
 	Application::Application() {
 		s_Application = this;

@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Octavia {
+namespace Q {
 
 	class Application
 	{

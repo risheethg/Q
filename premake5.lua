@@ -1,4 +1,4 @@
-workspace "141614"
+workspace "Q"
     architecture "x64"
 
     configurations 
@@ -12,8 +12,8 @@ workspace "141614"
     IncludeDir = {}
 
 
-    project "141614"
-        location "141614"
+    project "Q"
+        location "Q"
         kind "ConsoleApp"
         language "C++"
         cppdialect "C++20"

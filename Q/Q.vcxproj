@@ -10,18 +10,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\Application.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\Application.cpp" />
-    <ClCompile Include="src\Main.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9690F47D-8232-1F54-6BED-32A8572EA6A4}</ProjectGuid>
+    <ProjectGuid>{F6B50200-6274-5900-AB79-590017775900}</ProjectGuid>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>141614</RootNamespace>
+    <RootNamespace>Q</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -48,16 +41,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\Debug-x86_64\141614\</OutDir>
-    <IntDir>..\bin-int\Debug-x86_64\141614\</IntDir>
-    <TargetName>141614</TargetName>
+    <OutDir>..\bin\Debug-x86_64\Q\</OutDir>
+    <IntDir>..\bin-int\Debug-x86_64\Q\</IntDir>
+    <TargetName>Q</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\bin\Release-x86_64\141614\</OutDir>
-    <IntDir>..\bin-int\Release-x86_64\141614\</IntDir>
-    <TargetName>141614</TargetName>
+    <OutDir>..\bin\Release-x86_64\Q\</OutDir>
+    <IntDir>..\bin-int\Release-x86_64\Q\</IntDir>
+    <TargetName>Q</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
