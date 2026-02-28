@@ -1,4 +1,4 @@
-workspace "Octavia"
+workspace "141614"
     architecture "x64"
 
     configurations 
@@ -10,11 +10,10 @@ workspace "Octavia"
     outputdir = "%{cfg.buildcfg}-%{cfg.architecture}"
 
     IncludeDir = {}
-    IncludeDir["PortAudio"] = "Octavia/vendor/portaudio/include"
 
 
-    project "Octavia"
-        location "Octavia"
+    project "141614"
+        location "141614"
         kind "ConsoleApp"
         language "C++"
         cppdialect "C++20"
@@ -29,7 +28,7 @@ workspace "Octavia"
 
         links
         {
-		    "portaudio_x64"
+	
         }
 
         files 
@@ -45,7 +44,6 @@ workspace "Octavia"
         includedirs
         {
             "%{prj.name}/src",
-            "%{IncludeDir.PortAudio}",
         }
 
         filter "configurations:Debug"
@@ -59,5 +57,5 @@ workspace "Octavia"
             optimize "On"
     
         postbuildcommands {
-            ("{COPY} Octavia/vendor/portaudio/build/msvc/x64/Debug/portaudio_x64.dll bin/" ..outputdir.. "/%{prj.name}")
+            
         }
