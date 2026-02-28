@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Octavia {
+namespace Q {
 
 	class Application
 	{
@@ -18,8 +18,13 @@ namespace Octavia {
 		Application();
 		~Application();
 
+	public:
+		void Run();
+
 	private:
 		inline static Application* s_Application{ nullptr };
+		
+		bool m_Running = true;
 	};
 
 }

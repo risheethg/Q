@@ -1,6 +1,6 @@
 #include "Application.h"
 
-namespace Octavia {
+namespace Q {
 
 	Application::Application() {
 		s_Application = this;
@@ -14,5 +14,10 @@ namespace Octavia {
 		return *s_Application;
 	}
 
+	void Application::Run() {
+		while (m_Running) {
+
+		}
+	}
 
 }
