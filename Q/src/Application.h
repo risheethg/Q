@@ -18,8 +18,13 @@ namespace Q {
 		Application();
 		~Application();
 
+	public:
+		void Run();
+
 	private:
 		inline static Application* s_Application{ nullptr };
+		
+		bool m_Running = true;
 	};
 
 }

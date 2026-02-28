@@ -14,5 +14,10 @@ namespace Q {
 		return *s_Application;
 	}
 
+	void Application::Run() {
+		while (m_Running) {
+
+		}
+	}
 
 }
